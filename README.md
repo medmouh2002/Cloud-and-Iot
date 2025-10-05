@@ -59,6 +59,20 @@ Complete smart home project using **Node-RED** as the logic engine and an **ESP3
 Real-time sensor monitoring and actuation, fully integrated in a simulated smart home environment.
 
 
+# ESP32 Smart Home Monitoring
+
+ESP32-based home automation system using **MQTT** for IoT communication. Simulates multi-sensor monitoring with real-time remote updates.
+
+**Project Highlights:**
+- **Sensors & Actuators**: DHT22 (temperature/humidity), PIR motion sensor, LDR (light), LEDs, buzzer.  
+- **MQTT Integration**: Publishes temperature, humidity, light, and motion data to a public broker.  
+- **Smart Automation**: LEDs turn on when dark + motion detected; buzzer alerts on motion.  
+- **Realtime Monitoring**: Serial output and 5-second data updates; modular, beginner-friendly design.
+
+Compact ESP32 IoT project for environmental monitoring and automation.
+
+
+
 
 
 
