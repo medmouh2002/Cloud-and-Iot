@@ -10,3 +10,21 @@ End-to-end cloud project integrating **IoT data**, **EC2 hosting**, **CloudWatch
 - Demonstrates IoT → Cloud → Monitoring → Alert workflow.
 
 *Tools: AWS IoT Core, EC2, CloudWatch, SNS, MQTT, ESP32 (Wokwi)*
+
+# Blynk project
+
+A simple **ESP32-based Home Automation System** simulation for **[Wokwi](https://wokwi.com/)**. Monitors temperature, humidity, and light, and controls LEDs via the **Blynk IoT platform**.
+
+**Files:**
+- `diagram.json` – circuit layout (ESP32, DHT22, PIR, LDR, LEDs, buzzer)
+- `libraries.txt` – required Arduino libraries
+- `sketch.ino` – main code: reads sensors, updates Blynk, controls LEDs
+- `wokwi-project.txt` – project metadata
+
+**Features:**
+- Real-time sensor monitoring  
+- Automatic LED control  
+- IoT integration via Blynk  
+
+Lightweight, modular, and ready to simulate in Wokwi.
+
