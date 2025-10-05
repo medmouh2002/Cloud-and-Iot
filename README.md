@@ -28,3 +28,37 @@ A simple **ESP32-based Home Automation System** simulation for **[Wokwi](https:/
 
 Lightweight, modular, and ready to simulate in Wokwi.
 
+
+# Docker Course Project
+
+Hands-on Docker project building and managing containers for a **Node.js Express API**. Covers Docker CLI, Docker Desktop, and Docker Compose.
+
+**Project Highlights:**
+- **API**: Serves JSON reviews on `GET /`, runs on port 4000, uses CORS.  
+- **Docker Build & Run**: Dockerfile builds `myapp` images; containers run with port mapping.  
+- **Docker Desktop**: Visual management of images and containers; cleanup via CLI/UI.  
+- **Docker Compose**: Multi-service setup (`api` + `myblog`) with volume mounts and interactive sessions.  
+- **Docker Hub**: Tagged images pushed and pulled; authentication and repo management demonstrated.  
+- **Development**: Live-reload with nodemon; handled port and container conflicts; cleaned unused resources.  
+
+Compact, practical Docker experience ready for deployment and experimentation.
+
+
+
+
+# Smart Home Automation with Node-RED
+
+Complete smart home project using **Node-RED** as the logic engine and an **ESP32 sensor node** (simulated in Wokwi) to monitor and control the environment in real-time.
+
+**Project Highlights:**
+- **Node-RED Dashboard**: Live gauges for Humidity, Temperature, Light, and Motion via MQTT.  
+- **ESP32 Simulation**: DHT22, LDR, PIR sensors; LEDs and buzzer for actuation.  
+- **Logic & Automation**: LEDs turn on when motion + low light; buzzer triggers briefly on motion.  
+- **Data Flow**: ESP32 → MQTT Broker → Node-RED → Dashboard; modular, beginner-friendly design.
+
+Real-time sensor monitoring and actuation, fully integrated in a simulated smart home environment.
+
+
+
+
+
