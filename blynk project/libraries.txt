@@ -1,0 +1,8 @@
+# Wokwi Library List
+# See https://docs.wokwi.com/guides/libraries
+
+DHT sensor library
+Blynk
+BlynkESP32_BT_WF
+WiFi
+dhtESP32-rmt
