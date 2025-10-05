@@ -1,4 +1,4 @@
-# 🏠 IoT & Smart Home Projects
+# 🏠 Cloud and Iot
 
 This repository contains a curated collection of **IoT and home automation projects** using ESP32, Node-RED, MQTT, Docker, and AWS. Each folder represents a stand-alone project or simulation with modular, beginner-friendly code and real-time monitoring capabilities.
 
@@ -6,7 +6,7 @@ This repository contains a curated collection of **IoT and home automation proje
 
 ## 📚 Project Guides
 
-### 1. **ESP32 Home Automation System** (`ESP32_Home_Automation`)  
+### 1. **blynk project
 Simulation of a smart home system using **ESP32** and **Blynk IoT platform**, built for **Wokwi**. Monitors environmental conditions and controls actuators automatically.  
 
 **Key Concepts Explored:**  
@@ -19,7 +19,7 @@ Simulation of a smart home system using **ESP32** and **Blynk IoT platform**, bu
 
 ---
 
-### 2. **Docker Crash Course Project** (`docker_course_pics`)  
+### 2. **Docker Crash Course 
 Hands-on project to **build, run, and manage Docker containers** for a Node.js Express API. Covers CLI, Docker Desktop, and Docker Compose workflows.  
 
 **Key Concepts Explored:**  
@@ -29,11 +29,10 @@ Hands-on project to **build, run, and manage Docker containers** for a Node.js E
 - Multi-service setup using `docker-compose.yaml`  
 - Pushing/pulling images to/from Docker Hub  
 
-**Files:** `api/app.js`, `api/package.json`, `Dockerfile`, `.dockerignore`, `docker-compose.yaml`  
 
 ---
 
-### 3. **Node-RED Smart Home Dashboard** (`smart_home_with_nodered`)  
+### 3. **Smart home with node-red
 Complete home automation with **Node-RED** and **ESP32 simulation**. Provides a live dashboard for environmental monitoring and actuation via MQTT.  
 
 **Key Concepts Explored:**  
@@ -42,11 +41,9 @@ Complete home automation with **Node-RED** and **ESP32 simulation**. Provides a 
 - Modular design for easy expansion  
 - Automated actuators: LEDs & buzzer controlled by sensor logic  
 
-**Files:** `sketch.ino` (ESP32 simulation), Node-RED flow JSON, dashboard configuration  
-
 ---
 
-### 4. **ESP32 Smart Home Monitoring** (`ESP32_Smart_Home_Monitoring`)  
+### 4. **Smart home project 
 ESP32 project using **MQTT** to monitor temperature, humidity, light, and motion. Automates LEDs and buzzer based on sensor conditions.  
 
 **Key Concepts Explored:**  
@@ -55,11 +52,10 @@ ESP32 project using **MQTT** to monitor temperature, humidity, light, and motion
 - Real-time serial monitoring every 5 seconds  
 - Multi-sensor environmental tracking  
 
-**Files:** `sketch.ino`, `diagram.json`, `libraries.txt`, `wokwi-project.txt`  
 
 ---
 
-### 5. **IoT Home Security System with AWS** (`IoT_Home_Security_AWS`)  
+### 5. **IoT project 
 Full IoT security system integrating **ESP32 sensors**, **AWS DynamoDB**, **Lambda**, **SNS**, and a **Flask web dashboard**. Detects intrusions and sends real-time alerts.  
 
 **Key Concepts Explored:**  
@@ -68,8 +64,6 @@ Full IoT security system integrating **ESP32 sensors**, **AWS DynamoDB**, **Lamb
 - Dashboard: Live charts using Chart.js  
 - Automation: Motion + open door triggers alarm with email notifications  
 - Containerized deployment with Docker  
-
-**Files:** `app.py`, `analyze_sensor_data.py`, `db.py`, `dashboard.js`, `index.html`  
 
 ---
 
